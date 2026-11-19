@@ -19,14 +19,13 @@ flowchart LR
     WAM["<b>World Action Model</b><br/>predicts the future<br/>and outputs robot actions"]
     VFM -->|"Part 2: make it interactive"| WM
     WM -->|"Part 3: make it act"| WAM
-    VFM -.->|"or adapt directly"| WAM
 ```
 
 ### What each step adds
 
 <table>
   <tr>
-    <th width="16%"></th>
+    <th width="16%"><img src="assets/spacer.png" width="100%" height="1" align="left" alt=""></th>
     <th width="42%">Video Foundation Model &rarr; World Model</th>
     <th width="42%">World Model &rarr; World Action Model</th>
   </tr>
@@ -84,7 +83,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -119,7 +118,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -164,7 +163,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -205,7 +204,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -265,7 +264,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -300,7 +299,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -326,7 +325,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -381,7 +380,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -401,7 +400,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -451,7 +450,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -481,7 +480,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -521,7 +520,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -551,7 +550,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -571,13 +570,13 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 ## Part 3: From World Models to World Action Models
 
-> Teaching a video or world model to act: choose the data ladder, decide where actions enter the network, pick an action representation, and stage the training.
+> Teaching a video or world model to act: choose the data ladder, decide where actions enter the network, pick an action representation, and stage the training. Some works skip the world-model stage and adapt a video foundation model into a WAM directly.
 
 ### Imagine-then-Execute
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -622,7 +621,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -657,7 +656,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -722,7 +721,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -747,7 +746,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
@@ -777,7 +776,7 @@ A recurring theme across both steps: **every new capability risks erasing the pr
 
 <table>
   <tr>
-    <th width="80%" align="left">Paper</th>
+    <th width="80%" align="left"><img src="assets/spacer.png" width="100%" height="1" align="left" alt="">Paper</th>
     <th width="10%">Date</th>
     <th width="10%">Link</th>
   </tr>
