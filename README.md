@@ -19,6 +19,7 @@ flowchart LR
     WAM["<b>World Action Model</b><br/>predicts the future<br/>and outputs robot actions"]
     VFM -->|"Part 2: make it interactive"| WM
     WM -->|"Part 3: make it act"| WAM
+    VFM -.->|"Part 3: direct adaptation"| WAM
 ```
 
 ### What each step adds
